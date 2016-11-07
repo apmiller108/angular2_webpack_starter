@@ -1,7 +1,9 @@
-var webpackConfig = require('./webpack.test');
+'use strict';
 
-module.exports = function (config) {
-    var _config = {
+const webpackConfig = require('./webpack.test');
+
+module.exports = (config) => {
+    config.set({
         autoWatch: true,
         basePath: '',
         browsers: ['PhantomJS'],
@@ -25,6 +27,5 @@ module.exports = function (config) {
             noInfo: true
         },
 
-    };
-    config.set(_config);
+    });
 };
