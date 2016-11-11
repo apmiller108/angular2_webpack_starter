@@ -11,11 +11,14 @@ changes, as well as the inclusion of sass loading.
 * Karma for running tests
 * Jasmine testing framework
 * Webpack configurations for test, development and production environments
+* Sass compilation
 * Flexbox Grid
 
 # Start the development server
 
 `npm start`
+
+Open a browser and go to localhost:4000.
 
 # Run tests
 
